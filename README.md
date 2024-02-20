@@ -26,7 +26,7 @@ You can also modify these variables to ensure that your output PDF file is free 
 def create_text_only_pdf(input_pdf, output_pdf, initial_font_size=10, line_spacing=1.2, min_font_size=5, footer_height=50):
 ```
 
--initial_font_size=10  -- This can be changed into your output document's default font size
--line_spacing=1.2 -- You can mofify your line spacing here
--min_font_size=5 -- This will be the absolute lowest a page's font size can go. From the script there is a check in place that watches out for text overflow, if overflow is detected, the script will reduce the font size down to this minimum variable until all text fits or the minimum is reached.
--footer_height=50 -- This is the reserved space for page numbers at the bottom of each page
+1. initial_font_size=10  -- This can be changed into your output document's default font size
+2. line_spacing=1.2 -- You can mofify your line spacing here
+3. min_font_size=5 -- This will be the absolute lowest a page's font size can go. From the script there is a check in place that watches out for text overflow, if overflow is detected, the script will reduce the font size down to this minimum variable until all text fits or the minimum is reached.
+4. footer_height=50 -- This is the reserved space for page numbers at the bottom of each page
